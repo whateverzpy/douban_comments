@@ -40,13 +40,14 @@ pipenv install
 pipenv shell
 ```
 
-2. 运行爬虫
+2. 使用自己的账号登录豆瓣，获取 cookies，将对应项填入 `.env.example` 文件，重命名为 `.env`
+3. 运行爬虫
 
 ```bash
 scrapy crawl comments
 ```
 
-3. 爬取结果将保存在 `comments.json` 文件中。
+4. 爬取结果将保存在 `comments.json` 文件中。
 
 ## 注意事项
 
