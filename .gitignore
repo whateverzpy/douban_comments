@@ -1,0 +1,57 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Pipenv
+Pipfile.lock
+*.venv/
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+nosetests.xml
+
+# Logs & temp
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Environment
+.env
+
+# -----------------------------
+# PyCharm / JetBrains
+# -----------------------------
+.idea/*
+
+# -----------------------------
+# OS specific
+# -----------------------------
+.DS_Store
+Thumbs.db
