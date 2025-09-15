@@ -57,3 +57,11 @@ scrapy crawl comments
 ## TODO
 
 - 我们需要更强有力的反反爬虫机制
+
+## 代码说明
+
+- `items.py`：定义了爬取的电影短评数据结构（如电影名、评论内容、用户等字段）。
+- `middlewares.py`：配置了请求和响应的中间件，可用于处理反爬虫、请求头等。
+- `pipelines.py`：实现了数据的后续处理和保存逻辑，比如将爬取结果写入 JSON 文件。
+- `settings.py`：包含 Scrapy 项目的全局配置，如并发数、请求延迟、Cookies 设置等。
+- `spiders/comments.py`：爬虫的主逻辑，负责先爬取电影列表，再逐个爬取每部电影的短评。
